@@ -4,7 +4,7 @@ import Container from "./Container.astro";
 ---
 
 <header>
-    <nav class="z-10 w-full absolute">
+    <nav class="z-10 pt-2 w-full absolute">
         <Container>
             <div class="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
                 <input aria-hidden="true" type="checkbox" name="toggle_nav" id="toggle_nav" class="hidden peer">
@@ -12,9 +12,11 @@ import Container from "./Container.astro";
                     <a href="#home" aria-label="logo" class="flex space-x-2 items-center">
                         <div aria-hidden="true" class="flex space-x-1">
                             <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-white"></div>
-                            <div class="h-6 w-2 bg-primary"></div>
+                            <div class="h-12 w-2 bg-primary"></div>
+                            <div class="h-12 w-4 bg-primary"></div>
                         </div>
-                        <span class="text-2xl font-bold text-gray-900 dark:text-white">Astrolus</span>
+                        <img src="images/xtensys-logo.png" alt="">
+                            
                     </a>
                     
                     <div class="relative flex items-center lg:hidden max-h-10">
@@ -31,25 +33,20 @@ import Container from "./Container.astro";
                             dark:shadow-none dark:bg-gray-800 dark:border-gray-700">
                    
                     <div class="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
-                        <ul class="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
+                        <ul class="tracking-wide font-medium lg:text-xl flex-col flex lg:flex-row gap-6 lg:gap-0">
                             <li>
                                 <a href="#features" class="block md:px-4 transition hover:text-primary">
-                                    <span>Features</span>
+                                    <span>About</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#solution" class="block md:px-4 transition hover:text-primary">
-                                    <span>Solution</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#testimonials" class="block md:px-4 transition hover:text-primary">
-                                    <span>Testimonials</span>
+                                    <span>Solutions</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#blog" class="block md:px-4 transition hover:text-primary">
-                                    <span>Blog</span>
+                                    <span>Press</span>
                                 </a>
                             </li>
                         </ul>
@@ -60,8 +57,8 @@ import Container from "./Container.astro";
                             href="#"
                             class="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                             >
-                            <span class="relative text-sm font-semibold text-white"
-                                >Get Started</span
+                            <span class="relative text-xl font-semibold text-white"
+                                >Reach Out!</span
                             >
                         </a>
                     </div>
